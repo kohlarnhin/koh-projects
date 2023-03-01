@@ -1,0 +1,19 @@
+{
+  "name": "wechaty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --watch src --watch config --experimental-modules src/myPrint.js"
+  },
+  "author": "kohlarnhin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ipp": "^2.0.1",
+    "qrcode": "^1.5.1",
+    "wechaty": "^1.20.2",
+    "wechaty-puppet-wechat": "^1.18.4"
+  }
+}
